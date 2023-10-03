@@ -27,8 +27,13 @@ const nextConfig = {
         protocol: "https",
         hostname: "placehold.co",
       },
+      {
+        protocol: "https",
+        hostname: "utfs.io", // Add this line
+      },
     ],
   },
 };
+
 
 module.exports = nextConfig;
